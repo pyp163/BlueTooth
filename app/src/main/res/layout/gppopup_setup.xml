@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/titlet" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ListView android:id="@id/lv_setup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="#ff000090" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+        <TextView android:background="#ff0000ff" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/white" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="TextView" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_hpspeed" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp_setup_dialog_tip13" android:layout_alignParentLeft="true" />
+                            <TextView android:textColor="@color/white" android:id="@id/tv_hpspeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_marginStart="3.0dip" />
+                        </LinearLayout>
+                        <SeekBar android:id="@id/hpspeed_progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="12" android:progress="1" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+                        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/gp_setup_dialog_tip14" />
+                        <CheckBox android:textColor="@color/white" android:id="@id/cb_hp_type1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp_setup_dialog_tip15" />
+                        <CheckBox android:textColor="@color/white" android:id="@id/cb_hp_type2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp_setup_dialog_tip16" />
+                        <CheckBox android:textColor="@color/white" android:id="@id/cb_hp_type3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp_setup_dialog_tip17" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ll_speed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/op26" android:layout_alignParentLeft="true" />
+                        <TextView android:textColor="@color/white" android:id="@id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" />
+                    </LinearLayout>
+                    <SeekBar android:id="@id/speed_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="3" android:progress="1" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+                    <CheckBox android:textColor="@color/white" android:id="@id/revers1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/white" android:id="@id/textViewvalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+                        <TextView android:textColor="@color/white" android:id="@id/textViewvalue1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="220" />
+                    </LinearLayout>
+                    <SeekBar android:id="@id/progress1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="600" android:progress="220" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+                    <TextView android:textColor="#ff008080" android:id="@id/restext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_yes" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_no" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

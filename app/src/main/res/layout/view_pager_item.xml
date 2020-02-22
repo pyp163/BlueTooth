@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/simpledraweeview" android:layout_width="fill_parent" android:layout_height="400.0dip" fresco:actualImageScaleType="fitCenter" fresco:placeholderImage="@mipmap/ic_launcher" fresco:placeholderImageScaleType="fitCenter" fresco:roundAsCircle="false" fresco:roundedCornerRadius="6.0dip" />
+</RelativeLayout>

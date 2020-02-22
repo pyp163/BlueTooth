@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/new_33" />
+    <RadioButton android:textColor="@color/white" android:id="@id/rbtn_eyeview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:text="@string/new_34" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/op36" />
+        <TextView android:textColor="@color/white" android:id="@id/tv_ratio" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" />
+        <SeekBar android:id="@id/pg_eyeview" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="14.0dip" android:max="3" android:progress="3" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" />
+    </LinearLayout>
+    <View android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/reverset" />
+    <RadioButton android:textColor="@color/white" android:id="@id/rbtn_abxy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:text="@string/new_35" />
+    <View android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/reverset" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <Button android:id="@id/btn_sure" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sure" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancle" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

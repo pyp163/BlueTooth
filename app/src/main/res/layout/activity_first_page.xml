@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_Layout1" android:background="@color/color_primary_ravel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_primary_rave2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/ic_launcher" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name1" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/menu" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_connstate" android:background="@color/color_primary_rave2" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_didnot_connect_device" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/didnot_connect_device" android:layout_marginStart="12.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/holo_red_dark" android:id="@id/connstate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connerror" android:layout_marginStart="4.0dip" />
+        <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_help" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_help_in" android:background="@color/color_primary_rave2" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/help_icon" android:layout_marginStart="12.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_help" android:layout_marginStart="4.0dip" />
+            <ImageView android:id="@id/iv_help_ask" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@mipmap/ask_bg" android:layout_marginStart="6.0dip" />
+            <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_close_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/close" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color_primary_rave2" android:padding="4.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/float_btn" android:layout_marginStart="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip9" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip10" />
+        </LinearLayout>
+        <CheckBox android:id="@id/cb_fbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:checked="true" android:button="@drawable/checkbox_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_factory_manager" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:background="@color/gray_line" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/color_primary_rave2" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/current_device_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginStart="16.0dip" fresco:actualImageScaleType="centerCrop" fresco:placeholderImage="@mipmap/ic_launcher" fresco:roundAsCircle="false" fresco:roundedCornerRadius="3.0dip" />
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="8.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip13" />
+                    <com.qx.qgbox.views.MarqueeTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_factory_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip14" />
+                    <com.qx.qgbox.views.MarqueeTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_factory_contact" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip13" />
+                    <com.qx.qgbox.views.MarqueeTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_factory_name1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/holo_green_dark" android:id="@id/tv_device_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_page_tip12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_game_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:background="@color/gray_line" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_game_list" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/location_list8" android:layout_marginStart="16.0dip" />
+            <ImageView android:id="@id/iv_game_list_ask" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@mipmap/ask_bg" android:layout_marginStart="6.0dip" />
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cloud" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip18" />
+                <ImageView android:id="@id/iv_cloud_ask" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@mipmap/ask_bg" android:layout_marginStart="6.0dip" />
+            </LinearLayout>
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.qx.qgbox.pulltorefreshgridview.DaisyRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <android.support.v4.widget.NestedScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.qx.qgbox.pulltorefreshgridview.ExpandableGridView android:id="@id/gv_official_game" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:numColumns="4" android:fadeScrollbars="false" />
+                    <com.qx.qgbox.pulltorefreshgridview.ExpandableGridView android:id="@id/gv_official_game_sunyes_max" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:numColumns="4" android:fadeScrollbars="false" />
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.qx.qgbox.pulltorefreshgridview.DaisyRefreshLayout>
+    </LinearLayout>
+</LinearLayout>

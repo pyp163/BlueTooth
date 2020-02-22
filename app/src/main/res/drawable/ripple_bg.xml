@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="120.0dip" />
+            <padding android:left="18.0dip" android:top="2.0dip" android:right="18.0dip" android:bottom="2.0dip" />
+            <solid android:color="@color/color_primary_ravel" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_pressed="false">
+        <shape>
+            <corners android:radius="120.0dip" />
+            <padding android:left="18.0dip" android:top="2.0dip" android:right="18.0dip" android:bottom="2.0dip" />
+            <solid android:color="@color/color_primary_rave2" />
+        </shape>
+    </item>
+</selector>

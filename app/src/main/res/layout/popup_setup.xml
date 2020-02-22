@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/titlet" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <View android:id="@id/split" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/titlet" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/l2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/split">
+        <LinearLayout android:orientation="vertical" android:id="@id/l21" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ListView android:id="@id/lv_setup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="#ff000090" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+        <View android:id="@id/split1" android:background="#ff0000ff" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/l22" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/white" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/l23" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/l26" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="#ff008080" android:id="@id/restext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/l2">
+        <Button android:id="@id/btn_yes" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_no" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

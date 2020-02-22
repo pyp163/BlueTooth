@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gp_setup_dialog_tip23" />
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" : " />
+        <TextView android:textColor="@color/white" android:id="@id/tv_hole_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="240" />
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" ms" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hole_time_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_mmm" />
+        <SeekBar android:id="@id/sb_hole_time" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="255" android:progress="1" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:layout_weight="1.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+        <ImageView android:id="@id/hole_time_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_mmm" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gp_setup_dialog_tip24" />
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" : " />
+        <TextView android:textColor="@color/white" android:id="@id/tv_stop_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="240" />
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" ms" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/stop_time_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_mmm" />
+        <SeekBar android:id="@id/sb_stop_time" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="255" android:progress="1" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:layout_weight="1.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+        <ImageView android:id="@id/stop_time_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_mmm" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_yes" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sure" android:layout_weight="1.0" />
+        <Button android:id="@id/btn_no" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancle" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

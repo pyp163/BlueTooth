@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/effect_preview" android:title="@string/first_page_tip17" />
+    <item android:id="@id/download_to_f1" android:title="@string/first_page_tip18" />
+    <item android:id="@id/download_to_f2" android:title="@string/first_page_tip19" />
+    <item android:id="@id/download_to_f3" android:title="@string/first_page_tip20" />
+    <item android:id="@id/download_to_f4" android:title="@string/first_page_tip21" />
+    <item android:id="@id/download_to_f5" android:title="@string/first_page_tip22" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gun_name">
+        <item>M416突击步枪</item>
+        <item>SCAR-L突击步枪</item>
+        <item>M16A4突击步枪</item>
+        <item>AUG突击步枪</item>
+        <item>Mini14-SKS射手步枪</item>
+        <item>M249轻机枪</item>
+        <item>AKM突击步枪</item>
+        <item>SLR射手步枪</item>
+        <item>UMP9冲锋枪</item>
+        <item>Vector冲锋枪</item>
+        <item>UZI冲锋枪</item>
+    </string-array>
+    <array name="progress_colors">
+        <item>@color/holo_blue_dark</item>
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_green_dark</item>
+        <item>@color/holo_purple_dark</item>
+        <item>@color/holo_red_dark</item>
+    </array>
+</resources>

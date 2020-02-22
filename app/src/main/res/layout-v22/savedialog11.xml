@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/new_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="35.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_save" android:background="@color/shape_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/save" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:background="@color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_share" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/share" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_post_official_line" android:background="@color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_post_official" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/new_setup_dialog_tip42" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:background="@color/white" android:visibility="visible" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_post_game_preset" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/new_setup_dialog_tip46" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:background="@color/white" android:layout_width="360.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_share" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="358.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_centerInParent="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:maxWidth="358.0dip" android:text="@string/new_setup_dialog_tip11" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="3.0dip">
+                    <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip12" />
+                    <EditText android:gravity="center" android:id="@id/et_pwd_code" android:background="@drawable/et_shape" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="8" android:layout_weight="3.0" android:inputType="number" android:layout_marginStart="3.0dip" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_message" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="350.0dip" android:text="@string/save_dialog_tip1" android:lines="3" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_post_official" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip35" />
+                    <TextView android:textColor="@color/white" android:id="@id/tv_device_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/app_name1" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip31" />
+                    <TextView android:textColor="@color/white" android:id="@id/tv_phone_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="2560x1440" android:layout_weight="1.0" android:drawableEnd="@mipmap/down_arrow_bg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip30" />
+                    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_preset_location" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableEnd="@mipmap/down_arrow_bg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip44" />
+                    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_preset_game_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableEnd="@mipmap/down_arrow_bg" />
+                </LinearLayout>
+                <TextView android:background="@color/white" android:layout_width="360.0dip" android:layout_height="1.0dip" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip29" />
+                    <CheckBox android:id="@id/cb_all_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox_style" android:text="@string/new_setup_dialog_tip43" android:layout_marginEnd="8.0dip" />
+                </LinearLayout>
+                <GridView android:id="@id/gv_device" android:layout_width="wrap_content" android:layout_height="90.0dip" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:numColumns="3" android:fadeScrollbars="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_post_game_preset" android:visibility="visible" android:layout_width="358.0dip" android:layout_height="130.0dip" android:layout_marginTop="3.0dip" android:layout_centerInParent="true">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip35" />
+                    <TextView android:textColor="@color/white" android:id="@id/tv_device_info_pg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip31" />
+                    <TextView android:textColor="@color/white" android:id="@id/tv_phone_info_pg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableEnd="@mipmap/down_arrow_bg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingHorizontal="4.0dip">
+                    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="23.0dip" android:text="@string/new_setup_dialog_tip44" />
+                    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_game_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableEnd="@mipmap/down_arrow_bg" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:background="@color/white" android:layout_width="360.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="360.0dip" android:layout_height="35.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_btn_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancle" android:layout_weight="1.0" />
+            <TextView android:background="@color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_btn_sure" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sure" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

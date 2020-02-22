@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="320.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="320.0dip" android:layout_height="35.0dip" android:text="@string/op35" />
+    <View android:id="@id/split" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_setup_dialog_tip41" android:layout_marginStart="8.0dip" />
+        <TextView android:textColor="@color/white" android:id="@id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:layout_marginStart="4.0dip" />
+        <SeekBar android:id="@id/sb_speed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="3" android:progress="0" android:progressDrawable="@drawable/progress_holo_light" android:thumb="@drawable/detail_icon_schedule_ball" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <Button android:textSize="15.0sp" android:gravity="center" android:id="@id/tv_sure" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sure" android:layout_weight="1.0" />
+        <TextView android:layout_width="12.0dip" android:layout_height="1.0dip" />
+        <Button android:textSize="15.0sp" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancle" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

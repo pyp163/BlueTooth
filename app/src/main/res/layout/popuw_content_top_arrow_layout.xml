@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ListView android:id="@id/tip_lv" android:background="#ff483d8b" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:layout_width="180.0dip" android:layout_height="110.0dip" android:divider="@color/white" android:dividerHeight="2.0dip" />
+    </RelativeLayout>
+</FrameLayout>

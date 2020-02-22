@@ -1,0 +1,14 @@
+package com.qx.qgbox.utils;
+
+public class KeyMap
+{
+  public static KeyMap[] mkeymap = { new KeyMap("1", 30), new KeyMap("2", 31), new KeyMap("3", 32), new KeyMap("4", 33), new KeyMap("5", 34), new KeyMap("6", 35), new KeyMap("q", 20), new KeyMap("w", 26), new KeyMap("e", 8), new KeyMap("r", 21), new KeyMap("t", 23), new KeyMap("y", 28), new KeyMap("a", 4), new KeyMap("s", 22), new KeyMap("d", 7), new KeyMap("f", 9), new KeyMap("g", 10), new KeyMap("h", 11), new KeyMap("z", 29), new KeyMap("x", 27), new KeyMap("c", 6), new KeyMap("v", 25), new KeyMap("b", 5), new KeyMap("n", 17), new KeyMap("k", 14), new KeyMap("m", 16), new KeyMap("o", 18), new KeyMap("p", 19), new KeyMap("comma", 54), new KeyMap("dot", 55), new KeyMap("i", 12), new KeyMap("j", 13), new KeyMap("l", 15), new KeyMap("u", 24), new KeyMap("7", 36), new KeyMap("8", 37), new KeyMap("9", 38), new KeyMap("0", 39), new KeyMap("enter", 40), new KeyMap("esc", 41), new KeyMap("backspace", 42), new KeyMap("tab", 43), new KeyMap("space", 44), new KeyMap("neg", 45), new KeyMap("equ", 46), new KeyMap("leftbracket", 47), new KeyMap("rightbracket", 48), new KeyMap("slash", 49), new KeyMap("fenhao", 51), new KeyMap("yinhao", 52), new KeyMap("tilde", 53), new KeyMap("backslash", 56), new KeyMap("caps", 57), new KeyMap("f1", 58), new KeyMap("f2", 59), new KeyMap("center", 60), new KeyMap("mouse", 61), new KeyMap("f5", 62), new KeyMap("f6", 63), new KeyMap("f7", 64), new KeyMap("f8", 65), new KeyMap("f9", 66), new KeyMap("f10", 67), new KeyMap("f11", 68), new KeyMap("f12", 69), new KeyMap("printscreen", 70), new KeyMap("scrollock", 71), new KeyMap("pause", 72), new KeyMap("insert", 73), new KeyMap("home", 74), new KeyMap("pageup", 75), new KeyMap("del", 76), new KeyMap("end", 77), new KeyMap("pagedown", 78), new KeyMap("rightarrow", 79), new KeyMap("leftarrow", 80), new KeyMap("downarrow", 81), new KeyMap("uparrow", 82), new KeyMap("numlock", 83), new KeyMap("numslash", 84), new KeyMap("numstar", 85), new KeyMap("numneg", 86), new KeyMap("numadd", 87), new KeyMap("numenter", 88), new KeyMap("num1", 89), new KeyMap("num2", 90), new KeyMap("num3", 91), new KeyMap("num4", 92), new KeyMap("num5", 93), new KeyMap("num6", 94), new KeyMap("num7", 95), new KeyMap("num8", 96), new KeyMap("num9", 97), new KeyMap("num0", 98), new KeyMap("numdot", 99), new KeyMap("app", 101), new KeyMap("leftctl", 224), new KeyMap("leftshift", 225), new KeyMap("leftalt", 226), new KeyMap("leftwin", 227), new KeyMap("rightctl", 228), new KeyMap("rightshift", 229), new KeyMap("rightalt", 230), new KeyMap("rightwin", 231), new KeyMap("mouseleft", 1), new KeyMap("mousemiddle", 2), new KeyMap("mouseright", 3) };
+  public String name;
+  public int value;
+
+  KeyMap(String paramString, int paramInt)
+  {
+    this.name = paramString;
+    this.value = paramInt;
+  }
+}

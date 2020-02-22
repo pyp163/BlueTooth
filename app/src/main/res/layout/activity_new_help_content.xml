@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_Layout1" android:background="@color/color_primary_ravel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/black_20_transparent" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/back" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_help" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ScrollView android:background="@color/black_20_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_1" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_3" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_6" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_8" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_11" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_16" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_45" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_59" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_64" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="12.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_67" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/next" />
+            </LinearLayout>
+            <TextView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

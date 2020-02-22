@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/effect_preview" android:title="@string/first_page_tip17" />
+    <item android:id="@id/download_to_up" android:title="@string/first_page_tip23" />
+    <item android:id="@id/download_to_right" android:title="@string/first_page_tip24" />
+    <item android:id="@id/download_to_down" android:title="@string/first_page_tip25" />
+    <item android:id="@id/download_to_left" android:title="@string/first_page_tip26" />
+</menu>

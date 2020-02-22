@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<gunInfos>
+
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>3</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>9</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M416突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>13</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>3</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>自动</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>5</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>5</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SCAR-L突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>连发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>连发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>M16A4突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>连发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M16A4自动步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M16A4自动步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>连发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>3</range>
+			<autoFireRate>10</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>5</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AUG突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+		<gunInfo>
+			<gunName>Mini14-SKS射手步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>		
+
+		<gunInfo>
+			<gunName>Mini14-SKS射手步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>Mini14-SKS射手步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>Mini14-SKS射手步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>6</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>Mini14-SKS射手步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>10</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+
+		<gunInfo>
+			<gunName>M249轻机枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>3</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M249轻机枪</gunName>
+			<mode>机描</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M249轻机枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M249轻机枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>M249轻机枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>10</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>4</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>12</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>AKM突击步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>14</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+
+		<gunInfo>
+			<gunName>SLR射手步枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>0</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SLR射手步枪</gunName>
+			<mode>机描</mode>
+			<fireMode>单发</fireMode>
+			<range>0</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>SLR射手步枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>8</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SLR射手步枪</gunName>
+			<mode>全息描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>8</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>SLR射手步枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>0</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>连发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>2</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>连发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>5</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>连发</fireMode>
+			<range>7</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UMP9冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+
+
+
+
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>连发</fireMode>
+			<range>2</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>2</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>单发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>连发</fireMode>
+			<range>3</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>红点描准镜</mode>
+			<fireMode>自动</fireMode>
+			<range>6</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>连发</fireMode>
+			<range>4</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>Vector冲锋枪</gunName>
+			<mode>2倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>8</range>
+			<autoFireRate>8</autoFireRate>
+		</gunInfo>
+
+
+
+
+		<gunInfo>
+			<gunName>UZI冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>单发</fireMode>
+			<range>1</range>
+			<autoFireRate>-1</autoFireRate>
+		</gunInfo>
+		<gunInfo>
+			<gunName>UZI冲锋枪</gunName>
+			<mode>无倍镜</mode>
+			<fireMode>自动</fireMode>
+			<range>2</range>
+			<autoFireRate>9</autoFireRate>
+		</gunInfo>
+
+
+	</gunInfos>
